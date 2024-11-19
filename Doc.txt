@@ -1,0 +1,35 @@
+PENGATURAN AWAL
+1. Buka file config.php
+2. Setting url utama di baris ke 6
+3. Setting database di baris ke 10 sampai 13 (PASTIKAN BAHWA DATABASE TELAH DIBUAT DI PHPMYADMIN)
+
+
+LOGIN PENGGUNA
+1. ADMINISTRATOR
+Email: admin@gmail.com
+Pass: senjamin
+2. USER
+Email: user@gmail.com
+Pass: senjaser
+
+
+CARA MERUBAH PASSWORD ADMIN
+Admin dapat sekaligus login sebagai user di halaman:
+Login sebagai user: localhost/login/
+Login sebagai admin: localhost/admin/login/
+
+1. Login sebagai user, gunakan email dan password admin
+2. Lalu klik edit profile
+3. Klik ubah password
+4. Masukkan Password Lama dan Baru
+5. Simpan
+
+
+CARA MERUBAH WARNA DASAR
+1. Buka file all.css di folder assets/css
+2. Ganti kode warna dibawah ini sesuai warna yang diinginkan
+3. Warna dasar saat ini yang diganti: 
+- #DC143C; /* MERAH */
+- #BB1133; /* DEEP MERAH */
+- #F05C79; /* DEMI MERAH */
+- #CC3333; /* MERAH DUA */
